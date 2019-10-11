@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b48730dfef9597f47bab2818c991560b, type: 3}
+  m_Name: Level3
+  m_EditorClassIdentifier: 
+  levelId: 3
+  levelName: MIDDLE AGES
+  introductionText: "Here comes the Middle Ages. Here comes the plague. In these times
+    it is hard to be healthy because you can become infected anywhere and anytime.
+    That\u2019s why people need doctors and hospitals. Help them - build a hospital."
+  giftItem: {fileID: 11400000, guid: 8894a7676430a4d499d82d35066d5751, type: 2}
+  finalItem: {fileID: 11400000, guid: 93cb34a0f8274da459881bf3a976cc7f, type: 2}
+  hasTLimit: 1
+  timeLimit: 120
+  hasTLReduction: 1
+  textForTLReduction: "The plague is spreading more and more\u2026 The time is running
+    out..."
+  timeLimitReduction: 60
+  itemForTLReduction: {fileID: 11400000, guid: daf75c0c48c4f4e47a80f6516cd49dd8, type: 2}

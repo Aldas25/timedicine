@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b48730dfef9597f47bab2818c991560b, type: 3}
+  m_Name: Level4
+  m_EditorClassIdentifier: 
+  levelId: 4
+  levelName: NEW AGE
+  introductionText: 'The plague has left the humankind but new diseases, such as flu,
+    are on the way. With the help of the science people are trying to overcome them.
+    They are inventing and discovering new things. Will you discover penicillin fast
+    enough? '
+  giftItem: {fileID: 11400000, guid: 4596684f7e6958547ac920197112a80c, type: 2}
+  finalItem: {fileID: 11400000, guid: a36bafb4469008d429800e6259ae9e4d, type: 2}
+  hasTLimit: 1
+  timeLimit: 180
+  hasTLReduction: 0
+  textForTLReduction: 
+  timeLimitReduction: 0
+  itemForTLReduction: {fileID: 0}
